@@ -1,0 +1,4 @@
+tenant_prefixed:
+    resource: "../src/Controller/"
+    type: attribute
+    prefix: "/{tenant}"
