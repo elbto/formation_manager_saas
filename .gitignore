@@ -1,20 +1,29 @@
-
-###> symfony/framework-bundle ###
-/.env.local
-/.env.local.php
-/.env.*.local
-/config/secrets/prod/prod.decrypt.private.php
-/public/bundles/
+### Symfony ###
 /var/
 /vendor/
-###< symfony/framework-bundle ###
-
-###> phpunit/phpunit ###
+/node_modules/
+/.env.local
+.env.test.local
+.env.dev.local
+.env.prod.local
+/public/build/
+/config/secrets/
+/config/jwt/
 /phpunit.xml
-/.phpunit.cache/
-###< phpunit/phpunit ###
+.phpunit.result.cache
 
-###> symfony/asset-mapper ###
-/public/assets/
-/assets/vendor/
-###< symfony/asset-mapper ###
+### Docker ###
+.docker/
+docker-compose.override.yml
+docker-compose.override.yaml
+
+### IDEs ###
+.idea/
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+### Logs ###
+/logs/
+*.log
