@@ -1,29 +1,26 @@
-### Symfony ###
+# Symfony directories
 /var/
 /vendor/
 /node_modules/
-/.env.local
-.env.test.local
-.env.dev.local
-.env.prod.local
 /public/build/
-/config/secrets/
-/config/jwt/
+/.env.local
+.env.*.local
 /phpunit.xml
-.phpunit.result.cache
+/phpunit.xml.dist
 
-### Docker ###
-.docker/
-docker-compose.override.yml
-docker-compose.override.yaml
-
-### IDEs ###
-.idea/
-.vscode/
-
-### Mac OS ###
-.DS_Store
-
-### Logs ###
-/logs/
+# Logs
 *.log
+
+# Docker
+/docker-compose.override.yml
+.env.docker.local
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
